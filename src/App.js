@@ -1,14 +1,16 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
 import './App.css';
 
 
 const App = () => {
   return (
-    <div>
-      <h1>Darci Pons</h1>
-      <p className="bio">Hi, I am a Software Developer based in Miami, Florida.</p>
-      <p>Check out some of my projects below!</p>
-    </div>
+    <BrowserRouter>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+    </BrowserRouter>
   );
 }
 
