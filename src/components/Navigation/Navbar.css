@@ -12,3 +12,7 @@
   cursor: pointer;
 }
 
+.nav_item {
+  margin: 20px;
+  text-decoration-line: none;
+}
