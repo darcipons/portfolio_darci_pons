@@ -5,6 +5,7 @@ import Projects from './pages/Projects/Projects'
 import About from './pages/About/About'
 import Navbar from './components/Navigation/Navbar'
 import './App.css';
+import Contact from './components/Contact/Contact';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/projects" component={Projects} />
       <Route path="/about" component={About} />
     </div>
+      <Contact/>
     </BrowserRouter>
   );
 }

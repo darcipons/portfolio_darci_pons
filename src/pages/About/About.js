@@ -1,9 +1,6 @@
 import React from 'react'
 import profile_pic from './profile_pic.png'
 import group_pic from './group_pic.png'
-import linkedin from './linkedin.png'
-import twitter from './twitter.png'
-import github from './github_white.png'
 import './About.css'
 
 
@@ -21,10 +18,6 @@ const About= () => {
       
       <div>
         <img src={group_pic} alt="group pic" className="group_pic"/>
-      </div>
-
-      <div className="contact">
-        <div>Contact Me!</div>
       </div>
     </div>
   )
