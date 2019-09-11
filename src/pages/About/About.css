@@ -1,0 +1,38 @@
+.about_name {
+  text-align: center;
+  font-size: 50px; 
+}
+
+.profile_pic{
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s; 
+  opacity: 0.9;
+}
+
+.profile_pic:hover {
+  transform: scale(1.1);
+}
+
+.bio_description {
+  text-align: center;
+  margin: 50px;
+}
+
+.group_pic{
+  width: 700px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  text-align: center;
+  font-size: 30px;
+}

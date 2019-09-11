@@ -3,6 +3,12 @@
   font-size: 24px;
 }
 
+.title {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
 .all_projects {
   display: flex;
   justify-content: space-evenly;
@@ -14,6 +20,7 @@
   width: 550px;
   border-radius: 10px;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .happydog_img {
@@ -21,6 +28,12 @@
     width: 550px;
     border-radius: 10px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1.0;
+  border-block-color: black;
 }
 
 

@@ -1,9 +1,9 @@
-/* .wrapper {
-  background: url(../../images/background_image.jpg);
+.wrapper {
+  background-image: url(../../images/background_image.jpg);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 .name {
   font-size: 72px;
