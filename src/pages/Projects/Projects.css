@@ -1,0 +1,26 @@
+.projects_title{
+  text-align: center;
+  font-size: 24px;
+}
+
+.all_projects {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.hangry_img {
+  height: 430px;
+  width: 550px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.happydog_img {
+    height: 430px;
+    width: 550px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
