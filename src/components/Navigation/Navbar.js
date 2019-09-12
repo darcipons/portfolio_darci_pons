@@ -9,17 +9,17 @@ const Navbar = () => {
       <Nav className="justify-content-end" id='nav-bar' activeKey="/home">
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/" className="text">Home</Nav.Link>
         </Nav.Item>
         </div>
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/projects" className="text">Projects</Nav.Link>
         </Nav.Item>
         </div>
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/about">About Me</Nav.Link>
+          <Nav.Link href="/about" className="text">About Me</Nav.Link>
         </Nav.Item>
         </div>
       </Nav>
