@@ -1,6 +1,6 @@
 import React from 'react'
 import profile_pic from './profile_pic.png'
-import group_pic from './group_pic.png'
+// import group_pic from './group_pic.png'
 import './About.css'
 
 
@@ -16,9 +16,9 @@ const About= () => {
           I am a recent graduate from Wyncode Academy. I hope to continue to learn about software development and create some amazing projects. Feel free to contact me at: darcimarie33@gmail.com. </div>
       </div>
       
-      <div>
+      {/* <div>
         <img src={group_pic} alt="group pic" className="group_pic"/>
-      </div>
+      </div> */}
     </div>
   )
 }

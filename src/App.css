@@ -11,7 +11,7 @@ h1 {
   color: white;
 }
 
-#root {
+.background {
   background-image: url(./background_image.jpg);
   height: 100vh;
   background-position: center;
@@ -19,3 +19,8 @@ h1 {
   background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
