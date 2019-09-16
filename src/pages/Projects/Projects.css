@@ -6,29 +6,32 @@
 .title {
   padding: 20px;
   text-align: center;
-  font-size: 27px;
+  font-size: 40px;
   color: white;
   font-weight: bold;
+  font-family: 'Sriracha', cursive;
 }
 
 .all_projects {
-  display: flex;
-  justify-content: space-evenly;
-  /* margin-top: 150px;
-  margin-bottom: 150px; */
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .hangry_img {
-  height: 430px;
-  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
   border-radius: 10px;
   cursor: pointer;
   opacity: 0.8;
 }
 
 .happydog_img {
-    height: 430px;
-    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     border-radius: 10px;
     cursor: pointer;
     opacity: 0.8;
