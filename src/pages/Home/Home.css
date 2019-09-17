@@ -12,3 +12,15 @@
   font-family: 'Sriracha', cursive;
 }
 
+@media only screen and (max-width: 450px) {
+  .name {
+    font-size: 55px; 
+    margin-top: 90px; 
+  }
+
+  .description {
+    font-size: 17px;
+  }
+} 
+
+

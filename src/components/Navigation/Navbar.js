@@ -1,5 +1,6 @@
 import React from 'react'; 
 import { Nav } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,17 +10,17 @@ const Navbar = () => {
       <Nav className="justify-content-end" id='nav-bar' activeKey="/home">
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/" className="text">Home</Nav.Link>
+          <Link className="text" to={'/'}>Home</Link>
         </Nav.Item>
         </div>
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/projects" className="text">Projects</Nav.Link>
+          <Link className="text" to={'/projects'}>Projects</Link>
         </Nav.Item>
         </div>
         <div className="nav_item">
         <Nav.Item>
-          <Nav.Link href="/about" className="text">About Me</Nav.Link>
+          <Link className="text" to={'/about'}>About Me</Link>
         </Nav.Item>
         </div>
       </Nav>

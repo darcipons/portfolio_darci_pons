@@ -5,29 +5,29 @@
 
 .bio {
   display: flex;
-  align-self: center;
-  padding: 5%;
-  padding-left: 400px;
-  padding-right: 400px;
-  margin-bottom: 100px;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  align-items: center;
 }
 
 .profile_pic{
-  border-radius: 100%;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  transition: transform 0.2s; 
-  opacity: 0.9;
+  border-radius: 10px;
+  width: 40%;
+  /* height: 30%; */
+  /* object-fit: cover;
+  transition: transform 0.2s;  */
+  /* opacity: 0.9; */
 }
 
-.profile_pic:hover {
+/* .profile_pic:hover {
   transform: scale(1.1);
-}
+} */
 
 .bio_description {
   text-align: center;
   margin: 50px;
+  font-size: 20px;
 }
 
 .group_pic{
@@ -36,10 +36,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 7%;
 }
 
-@media only screen and (max-width: 600px) {
-  .media {
-    background-color: lightblue;
+@media only screen and (max-width: 450px) {
+  .profile_pic {
+    width: 76%;
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio_description {
+    font-size: 18px;
   }
 }
