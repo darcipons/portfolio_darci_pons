@@ -5,12 +5,11 @@ import hangry from './hangry.png'
 import happydog from './happydog.png'
 import dog from './dog.png'
 import foodhouse from './foodhouse.png'
-import plant from './plant_card.png'
 import todo from './todo_app.png'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='projects_container'>
       <div className="projects_title">Projects</div>
 
       <div className="all_projects">
@@ -20,8 +19,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Hangry</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Created using: JavaScript, React, & Yelp API
             </Card.Text>
           </Card.Body>
           <Card.Body>
@@ -35,8 +33,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>HappyDog</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Created using: Ruby on Rails and TheDogAPI
             </Card.Text>
           </Card.Body>
           <Card.Body>
@@ -50,8 +47,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Dog Picture</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Created using: JavaScript
             </Card.Text>
           </Card.Body>
           <Card.Body>
@@ -65,8 +61,7 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Food House</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Created using: JavaScript and React
             </Card.Text>
           </Card.Body>
           <Card.Body>
@@ -76,26 +71,11 @@ const Projects = () => {
         </Card>
 
         <Card className='card5' style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={plant} />
-          <Card.Body>
-            <Card.Title>Business Card</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-          </Card.Body>
-          <Card.Body>
-            <Card.Link href="https://github.com/darcipons/business_card" target="_blank">GitHub</Card.Link>
-          </Card.Body>
-        </Card>
-
-        <Card className='card6' style={{ width: '18rem' }}>
           <Card.Img variant="top" src={todo} />
           <Card.Body>
             <Card.Title>Todo App</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
+              Created using: Flutter
             </Card.Text>
           </Card.Body>
           <Card.Body>

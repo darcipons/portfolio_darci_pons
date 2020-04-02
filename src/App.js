@@ -11,7 +11,7 @@ import Contact from './components/Contact/Contact';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="background">
+      <div>
         <Navbar />
         {/* <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} /> 
@@ -21,8 +21,6 @@ const App = () => {
         <Projects/>
         <Contact/>
       </div>
-
-      
     </BrowserRouter>
   );
 }

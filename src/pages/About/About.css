@@ -1,6 +1,7 @@
-.media {
+/* .media {
   margin: 0 0 8% 0;
-}
+  height: 100vh;
+} */
 
 .about_name {
   text-align: center;
@@ -19,9 +20,7 @@
 .bio {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  /* margin: 5% auto;
-  width: 50%;
-  align-items: center; */
+  height: 80vh;
 }
 
 .bio_pic {
@@ -32,30 +31,18 @@
   border-radius: 10px;
   width: 40%;
   box-shadow: 0 0 7px -1px;
-  height: 30%;
-  object-fit: cover;
-  transition: transform 0.2s; 
-  opacity: 0.9;
-  align-self: center;
+  padding: 15% 0 0 25%;
 }
 
 .bio_text {
   background-color: #ecddde;
+  padding-top: 15%;
 }
 
 .bio_description {
   text-align: center;
   margin: 50px;
   font-size: 20px;
-}
-
-.group_pic{
-  width: 35%;
-  border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7%;
 }
 
 @media only screen and (max-width: 450px) {

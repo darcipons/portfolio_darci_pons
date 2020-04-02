@@ -1,28 +1,12 @@
-h1 {
-  color: white;
-  font-family: 'Sriracha', cursive;
-}
 
 @import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
 
 .bio {
   font-size: 20px; 
-  /* font-family: 'Sriracha', cursive; */
 }
 
 body {
-  /* background-image: url(./background_image.jpg);
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   font-family: 'Sriracha', cursive;
 }
 
 
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-} */
