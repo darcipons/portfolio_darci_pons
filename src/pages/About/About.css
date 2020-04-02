@@ -1,6 +1,11 @@
+.media {
+  margin: 3% 0 8% 0;
+}
+
 .about_name {
   text-align: center;
   font-size: 50px; 
+  color: black;
 }
 
 .bio {
@@ -14,15 +19,13 @@
 .profile_pic{
   border-radius: 10px;
   width: 40%;
+  box-shadow: 0 0 7px -1px;
   /* height: 30%; */
   /* object-fit: cover;
   transition: transform 0.2s;  */
   /* opacity: 0.9; */
 }
 
-/* .profile_pic:hover {
-  transform: scale(1.1);
-} */
 
 .bio_description {
   text-align: center;
