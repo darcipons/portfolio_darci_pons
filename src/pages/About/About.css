@@ -1,5 +1,5 @@
 .media {
-  margin: 3% 0 8% 0;
+  margin: 0 0 8% 0;
 }
 
 .about_name {
@@ -8,24 +8,40 @@
   color: black;
 }
 
-.bio {
-  display: flex;
-  justify-content: center;
+.about_line {
+  border-bottom: solid;
+  border-width: thin;
+  border-color: black;
+  width: 10%;
   margin: auto;
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  /* margin: 5% auto;
   width: 50%;
-  align-items: center;
+  align-items: center; */
+}
+
+.bio_pic {
+  background-color: black;
 }
 
 .profile_pic{
   border-radius: 10px;
   width: 40%;
   box-shadow: 0 0 7px -1px;
-  /* height: 30%; */
-  /* object-fit: cover;
-  transition: transform 0.2s;  */
-  /* opacity: 0.9; */
+  height: 30%;
+  object-fit: cover;
+  transition: transform 0.2s; 
+  opacity: 0.9;
+  align-self: center;
 }
 
+.bio_text {
+  background-color: #ecddde;
+}
 
 .bio_description {
   text-align: center;
